@@ -1,0 +1,57 @@
+/* Importing Poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.talk-to-us-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.header {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.card {
+  width: 13rem;
+  height: 15rem;
+  border: 1px solid #d3d3d3;
+  border-radius: 8px;
+  display: flex; /* Enable flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  text-align: center; /* Center text alignment */
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+}
+
+.yellow-card {
+  background-color: #FFC357;
+}
+
+.grey-card {
+  background-color: #E8E8EA;
+}
+
+.blue-light-card {
+  background-color: #4270A4;
+  color: #fff;
+}
+
+.blue-dark-card {
+  background-color: #0049B2;
+  color: #fff;
+}

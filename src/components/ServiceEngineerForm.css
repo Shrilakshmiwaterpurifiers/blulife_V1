@@ -1,0 +1,105 @@
+.serviceengineer-wrapper {
+    font-family: 'Poppins', sans-serif;
+    color:#2E5AB1;
+  }
+  .serviceengineer-intro-content{
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .serviceengineer-intro-content h2 {
+    font-size: 22px;
+    color: #000000;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 400;
+  }
+   .serviceengineer-form-section h3 {
+        font-size: 24px;
+        color: #2957AE;
+        margin-bottom: 20px;
+        text-align: center;
+        margin-left: 10rem;
+    }
+  
+  .serviceengineer-intro-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    margin: 0 20px;
+  }
+  .serviceengineer-container{
+    display: grid;
+    height: 28rem;
+    align-items: center;
+    justify-content: start;
+    background-color: #EDEBEB;
+    grid-template-columns: repeat(12 , 1fr);
+  }
+  .serviceengineer-image{
+    grid-column: span 6;
+  }
+  .serviceengineer-image img{
+    height: 448px;
+    width: 874px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .serviceengineer-form-section {
+    grid-column: span 6;
+    margin-right: 1rem;
+  }
+  .serviceengineer-form-section h3 {
+    font-size: 20px;
+    color: #2853AA;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 10 rem;
+  }
+  .serviceengineer-form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .serviceengineer-form-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    color: #2853AA;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+  }
+  
+  .label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    flex-basis: 40%;
+    text-align: right;
+    color: #2E5AB1;
+  }
+  
+  .input {
+    flex-basis: 60%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+  }
+  input:focus {
+    outline: 2px solid #4ca1af;
+  }
+  .submit-text {
+    width: fit-content;
+    margin-left: 40rem;
+    color: #2853AA;
+  }
+@media (max-width:768px) {
+    .serviceengineer-container{
+        flex-direction: column;
+         align-items: center;
+    }
+       
+  .serviceengineer-image img{
+    width: 100%;
+  }
+    
+}
